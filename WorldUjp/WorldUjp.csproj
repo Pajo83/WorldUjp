@@ -8,14 +8,12 @@
     <Compile Remove="Pages\FiscalEdit.cshtml.cs" />
     <Compile Remove="Pages\FiscalList.cshtml.cs" />
     <Compile Remove="Pages\Product.cshtml.cs" />
-    <Compile Remove="Pages\TaxPayer\Edit.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="Pages\FiscalEdit.cshtml" />
     <Content Remove="Pages\FiscalList.cshtml" />
     <Content Remove="Pages\Product.cshtml" />
-    <Content Remove="Pages\TaxPayer\Edit.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

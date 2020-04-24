@@ -32,9 +32,7 @@
                     @((taxPayer.Products.Sum(y => y.Price * y.DDV.Tax) * taxPayer.Country.TaxReturnPolicy)?.ToString("C"))
                 </td>
                 <td>
-                    <a class="btn btn-outline-secondary">
-                        Buy Products
-                    </a>
+                    <a asp-page="./List" asp-route-id="@taxPayer.Id">Buy Products</a> |
                 </td>
             </tr>
         }
